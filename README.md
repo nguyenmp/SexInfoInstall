@@ -31,6 +31,9 @@ Privileges: Grant ALL PRIVILEGES database-specific
 How To Use
 ==========
 
+To open the local version of SexInfo, go to `localhost:80/sexinfo` in your choice 
+of browser.
+
 To start the server, execute the following command:
 `sudo /opt/lampp/lampp start`
 
