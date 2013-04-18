@@ -39,9 +39,8 @@ cp ./php.ini /opt/lampp/etc/
 if [ ! -d /opt/lampp/htdocs/sexinfo/ ] ; then
 	if [ ! -d ./sexinfo/.git/ ] ; then
 		git clone git://github.com/sexinfo/sexinfo.git ./sexinfo/
-	else
-		ln -s $PWD/sexinfo/ /opt/lampp/htdocs/
 	fi
+	ln -s $PWD/sexinfo/ /opt/lampp/htdocs/
 else 
 	echo "SexInfo project already installed"
 fi
