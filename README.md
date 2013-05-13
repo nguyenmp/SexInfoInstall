@@ -47,4 +47,4 @@ Installation Information
 
 XAMPP is downloaded and installed to `/opt/lampp/`
 
-The SexInfo project folder is under `/opt/lampp/htdocs/`
+The SexInfo project folder is in the folder `sexinfo` next to the install script.  There is a symbolic link from `/opt/lampp/htdocs/sexinfo` to `./sexinfo`.
